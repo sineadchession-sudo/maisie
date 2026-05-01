@@ -6,19 +6,19 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-start md:items-center justify-between gap-10">
         {/* Brand */}
         <div className="flex flex-col gap-3">
-          <span className="text-3xl font-black text-lilac">maisie</span>
-          <p className="text-sm font-light text-white/70 italic">future you will thank you.</p>
+          <span className="text-3xl font-black text-white">maisie</span>
+          <p className="text-sm font-light text-white italic">future you will thank you.</p>
         </div>
 
         {/* Social links */}
         <div className="flex flex-col gap-3">
-          <p className="text-xs font-normal text-white/50 uppercase tracking-widest">follow along</p>
+          <p className="text-xs font-semibold text-white uppercase tracking-widest">follow along</p>
           <div className="flex flex-col gap-2">
             <a
               href="https://instagram.com/maisieapp_"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-sm font-light text-white/80 hover:text-lilac transition-colors"
+              className="text-sm font-light text-white hover:underline underline-offset-4 transition-all"
             >
               Instagram — @maisieapp_
             </a>
@@ -26,7 +26,7 @@ export default function Footer() {
               href="https://tiktok.com/@maisie.app"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-sm font-light text-white/80 hover:text-lilac transition-colors"
+              className="text-sm font-light text-white hover:underline underline-offset-4 transition-all"
             >
               TikTok — @maisie.app
             </a>
@@ -34,7 +34,7 @@ export default function Footer() {
               href="https://linkedin.com/company/maisie-app"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-sm font-light text-white/80 hover:text-lilac transition-colors"
+              className="text-sm font-light text-white hover:underline underline-offset-4 transition-all"
             >
               LinkedIn — maisie-app
             </a>
@@ -43,23 +43,23 @@ export default function Footer() {
 
         {/* Nav */}
         <div className="flex flex-col gap-3">
-          <p className="text-xs font-normal text-white/50 uppercase tracking-widest">pages</p>
+          <p className="text-xs font-semibold text-white uppercase tracking-widest">pages</p>
           <div className="flex flex-col gap-2">
-            <Link href="/#what-is-maisie" className="text-sm font-light text-white/80 hover:text-lilac transition-colors">
+            <Link href="/#what-is-maisie" className="text-sm font-light text-white hover:underline underline-offset-4 transition-all">
               what is maisie
             </Link>
-            <Link href="/our-story" className="text-sm font-light text-white/80 hover:text-lilac transition-colors">
+            <Link href="/our-story" className="text-sm font-light text-white hover:underline underline-offset-4 transition-all">
               our story
             </Link>
-            <Link href="/waitlist" className="text-sm font-light text-white/80 hover:text-lilac transition-colors">
+            <Link href="/waitlist" className="text-sm font-light text-white hover:underline underline-offset-4 transition-all">
               join the waitlist
             </Link>
           </div>
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto mt-12 pt-8 border-t border-white/10">
-        <p className="text-xs font-light text-white/40 text-center">
+      <div className="max-w-7xl mx-auto mt-12 pt-8 border-t border-white/20">
+        <p className="text-xs font-light text-white text-center">
           © 2025 maisie. Built with love in Ireland. 🇮🇪
         </p>
       </div>

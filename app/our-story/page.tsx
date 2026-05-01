@@ -4,6 +4,7 @@ import SectionTag from "@/components/ui/SectionTag";
 import DecorativeBlobs from "@/components/illustrations/DecorativeBlobs";
 import FounderPortrait from "@/components/illustrations/FounderPortrait";
 import NevePlaceholder from "@/components/illustrations/NevePlaceholder";
+import TableScene from "@/components/illustrations/TableScene";
 
 export const metadata: Metadata = {
   title: "our story — maisie",
@@ -37,14 +38,14 @@ export default function OurStoryPage() {
       <section className="relative bg-lilac-dark py-20 px-6 md:px-12 lg:px-20 overflow-hidden">
         <DecorativeBlobs dark />
         <div className="relative z-10 max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-16">
-          {/* Founder illustration */}
+          {/* Table scene illustration */}
           <div className="flex-1 flex items-center justify-center">
-            <FounderPortrait />
+            <TableScene />
           </div>
 
           {/* Copy */}
           <div className="flex-1 flex flex-col gap-7">
-            <SectionTag>✦ the origin story</SectionTag>
+            <SectionTag dark>✦ the origin story</SectionTag>
             <h2 className="text-[clamp(2rem,3vw,3rem)] font-semibold text-white leading-[1.2]">
               A hard week.
               <br />
@@ -52,7 +53,7 @@ export default function OurStoryPage() {
               <br />
               A revelation.
             </h2>
-            <div className="flex flex-col gap-5 text-[1rem] font-light text-white/80 leading-[2]">
+            <div className="flex flex-col gap-5 text-[1rem] font-light text-white leading-[2]">
               <p>
                 It was a hard week. The kind where the days blur into each other and
                 exhaustion sits heavy in your chest.
@@ -109,8 +110,9 @@ export default function OurStoryPage() {
                 her days, and realised what she had built could change the experience
                 of motherhood for every woman who came after her.
                 <br /><br />
-                maisie is her second daughter — the name they didn&apos;t choose for Stevie,
-                now holding everything.
+                Before maisie, Sinead spent 8+ years working in tech, including time
+                at Google — which means she knows exactly what great product feels like,
+                and exactly what has been missing for mothers.
               </p>
             </div>
 
