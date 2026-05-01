@@ -117,8 +117,8 @@ export default function WaitlistPage() {
       <section className="relative bg-lilac-dark py-16 px-6 overflow-hidden">
         <DecorativeBlobs dark />
         <div className="relative z-10 max-w-2xl mx-auto text-center">
-          <p className="text-2xl font-black italic text-lilac">future you will thank you.</p>
-          <p className="text-sm font-light text-white/60 mt-3">maisie — built with love in Ireland 🇮🇪</p>
+          <p className="text-2xl font-black italic text-white">future you will thank you.</p>
+          <p className="text-sm font-light text-white mt-3">maisie — built with love in Ireland 🇮🇪</p>
         </div>
       </section>
     </>

@@ -218,7 +218,7 @@ export default function WaitlistForm() {
       {/* Due date */}
       <div>
         <label htmlFor="dueDate" className={labelClass}>
-          When is / was your baby&apos;s due date?
+          When is your baby due / when is your baby&apos;s birthday?
         </label>
         <input
           id="dueDate"

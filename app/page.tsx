@@ -158,11 +158,9 @@ export default function Home() {
             <SectionTag>✦ for every mother, everywhere</SectionTag>
 
             <h1 className="text-[clamp(2.8rem,5vw,5rem)] font-semibold text-ink leading-[1.1]">
-              for the mums who do not want
+              for mums who refuse to
               <br />
-              to miss a single thing
-              <br />
-              in their baby&apos;s{" "}
+              miss their baby&apos;s{" "}
               <em className="font-black not-italic text-lilac">first year.</em>
             </h1>
 
@@ -240,21 +238,21 @@ export default function Home() {
       <section className="relative bg-lilac-dark py-20 px-6 md:px-12 lg:px-20 overflow-hidden">
         <DecorativeBlobs dark />
         <div className="relative z-10 max-w-7xl mx-auto flex flex-col lg:flex-row gap-12 lg:gap-20 items-center">
-          <div className="flex-1 bg-lilac rounded-3xl p-8 md:p-10 text-white relative overflow-hidden">
+          <div className="flex-1 bg-lilac-light rounded-3xl p-8 md:p-10 relative overflow-hidden">
             <span
-              className="absolute -top-4 -left-2 text-[8rem] font-black text-white/20 select-none leading-none"
+              className="absolute -top-4 -left-2 text-[8rem] font-black text-lilac/30 select-none leading-none"
               aria-hidden="true"
             >
               &ldquo;
             </span>
-            <blockquote className="relative z-10 text-[1.05rem] font-light leading-[1.9] italic">
+            <blockquote className="relative z-10 text-[1.05rem] font-light text-ink leading-[1.9] italic">
               On my worst week, I sat down to write in my calendar and
               thought I had nothing to say. Then I opened my camera roll.
               <br /><br />
               Stevie had sat up unaided for the first time.
               It had been there all along.
             </blockquote>
-            <p className="mt-6 text-xs font-normal text-white/70">— Sinead, maisie founder</p>
+            <p className="mt-5 text-[1rem] font-semibold text-ink">— Sinead, maisie founder</p>
           </div>
 
           <div className="flex-1 flex flex-col gap-6">
@@ -263,7 +261,7 @@ export default function Home() {
               <br />
               Especially the hard days.
             </h2>
-            <p className="text-[1rem] font-light text-white/80 leading-[1.9]">
+            <p className="text-[1rem] font-light text-white leading-[1.9]">
               The postpartum period has a pull toward darkness that nobody
               prepares you for. maisie was built as a gentle, daily counter
               to that pull.
@@ -274,7 +272,7 @@ export default function Home() {
               something worth celebrating. And on the very hardest days, that
               habit is what carries you through.
             </p>
-            <p className="text-xl font-black italic text-lilac">
+            <p className="text-xl font-black italic text-white">
               future you will thank you.
             </p>
           </div>
