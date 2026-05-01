@@ -158,11 +158,12 @@ export default function Home() {
             <SectionTag>✦ for every mother, everywhere</SectionTag>
 
             <h1 className="text-[clamp(2.8rem,5vw,5rem)] font-semibold text-ink leading-[1.1]">
-              don&apos;t miss a thing
+              for the mums who do not want
               <br />
-              in your postpartum
+              to miss a single thing
               <br />
-              <em className="font-black not-italic text-lilac">blur.</em>
+              in their baby&apos;s{" "}
+              <em className="font-black not-italic text-lilac">first year.</em>
             </h1>
 
             <p className="text-[1.1rem] font-light text-ink leading-[1.8] max-w-[520px]">
@@ -236,9 +237,9 @@ export default function Home() {
       </section>
 
       {/* ─── 1.3 THE HONEST PART ─── */}
-      <section className="relative bg-ink py-20 px-6 md:px-12 lg:px-20 overflow-hidden">
+      <section className="relative bg-lilac-dark py-20 px-6 md:px-12 lg:px-20 overflow-hidden">
         <DecorativeBlobs dark />
-        <div className="relative z-10 max-w-7xl mx-auto flex flex-col lg:flex-row gap-12 lg:gap-20 items-start">
+        <div className="relative z-10 max-w-7xl mx-auto flex flex-col lg:flex-row gap-12 lg:gap-20 items-center">
           <div className="flex-1 bg-lilac rounded-3xl p-8 md:p-10 text-white relative overflow-hidden">
             <span
               className="absolute -top-4 -left-2 text-[8rem] font-black text-white/20 select-none leading-none"
@@ -294,7 +295,7 @@ export default function Home() {
               color="#FACC15"
               icon={<PhoneIconIllustration />}
               heading="capture the moment"
-              body="A photo, a voice note, a few words. Whatever you have the energy for. maisie makes it frictionless — because we know what your days look like."
+              body="A photo or a few words. Whatever you have the energy for. maisie makes it frictionless — because we know what your days look like."
             />
             <div className="hidden md:block self-center w-12 h-0.5 bg-lilac-light flex-shrink-0" />
             <Step
@@ -302,7 +303,7 @@ export default function Home() {
               color="#A855F7"
               icon={<CalendarIconIllustration />}
               heading="build the habit"
-              body="Every day you show up — even imperfectly — is a rep. maisie celebrates you for it. You showed up. That's everything."
+              body="Every day you show up — even imperfectly — is a rep. maisie celebrates you for it. You showed up. That's enough. That's everything."
             />
             <div className="hidden md:block self-center w-12 h-0.5 bg-lilac-light flex-shrink-0" />
             <Step

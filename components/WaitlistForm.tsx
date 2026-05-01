@@ -222,10 +222,18 @@ export default function WaitlistForm() {
         </label>
         <input
           id="dueDate"
-          type="month"
-          placeholder="mm / yyyy"
+          type="text"
+          inputMode="numeric"
+          placeholder="DD/MM/YYYY"
+          pattern="\d{2}/\d{2}/\d{4}"
+          maxLength={10}
           value={fields.dueDate}
-          onChange={(e) => setField("dueDate", e.target.value)}
+          onChange={(e) => {
+            let v = e.target.value.replace(/[^\d]/g, "");
+            if (v.length > 2) v = v.slice(0, 2) + "/" + v.slice(2);
+            if (v.length > 5) v = v.slice(0, 5) + "/" + v.slice(5);
+            setField("dueDate", v.slice(0, 10));
+          }}
           className={inputClass}
         />
       </div>

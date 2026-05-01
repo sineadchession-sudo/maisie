@@ -25,7 +25,7 @@ export default function OurStoryPage() {
             For mothers.
           </h1>
           <p className="text-[1.1rem] font-light text-mid leading-[1.8] max-w-[580px]">
-            maisie was born on a hard day in Ireland, in the blur of the postpartum
+            maisie was born on a hard day in Ireland, in the madness of the postpartum
             first year. Two women — one with the idea, one with the technical
             instinct to build it — decided that new mothers deserved better than
             what existed.
@@ -34,7 +34,7 @@ export default function OurStoryPage() {
       </section>
 
       {/* ─── 2.2 FOUNDER STORY ─── */}
-      <section className="relative bg-ink py-20 px-6 md:px-12 lg:px-20 overflow-hidden">
+      <section className="relative bg-lilac-dark py-20 px-6 md:px-12 lg:px-20 overflow-hidden">
         <DecorativeBlobs dark />
         <div className="relative z-10 max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-16">
           {/* Founder illustration */}
@@ -60,7 +60,7 @@ export default function OurStoryPage() {
               <p>
                 Sinead sat down to write in her calendar — a small daily practice she&apos;d
                 built for herself, a cup of tea, a quiet moment to find the best part of
-                each day — and her first thought was: &ldquo;I&apos;ve nothing to write here.&rdquo;
+                each day — and her first thought was: &ldquo;I&apos;ve achieved nothing this week, I&apos;ve nothing to write here.&rdquo;
               </p>
               <p>So she scrolled through her camera roll.</p>
               <p>
@@ -153,10 +153,11 @@ export default function OurStoryPage() {
               maisie
             </span>
             <span
-              className="text-sm font-normal italic text-lilac mt-4 ml-1"
+              className="text-xs font-light italic text-lilac mt-4 ml-1 max-w-[280px] leading-[1.6]"
               style={{ transform: "rotate(-2deg)", display: "inline-block" }}
             >
-              &ldquo;the quietest kind of poetry&rdquo;
+              maisie (from Margaret) means &ldquo;pearl,&rdquo; a gem born of the moon&apos;s hidden
+              light. This reflects the app&apos;s mission: finding the glow within the chaos.
             </span>
           </div>
 

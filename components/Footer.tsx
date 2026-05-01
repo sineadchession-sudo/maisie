@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-ink text-white py-16 px-6 md:px-12 lg:px-20">
+    <footer className="bg-lilac-dark text-white py-16 px-6 md:px-12 lg:px-20">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-start md:items-center justify-between gap-10">
         {/* Brand */}
         <div className="flex flex-col gap-3">

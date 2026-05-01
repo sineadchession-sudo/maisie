@@ -114,7 +114,7 @@ export default function WaitlistPage() {
       </section>
 
       {/* ─── Decorative closing ─── */}
-      <section className="relative bg-ink py-16 px-6 overflow-hidden">
+      <section className="relative bg-lilac-dark py-16 px-6 overflow-hidden">
         <DecorativeBlobs dark />
         <div className="relative z-10 max-w-2xl mx-auto text-center">
           <p className="text-2xl font-black italic text-lilac">future you will thank you.</p>
