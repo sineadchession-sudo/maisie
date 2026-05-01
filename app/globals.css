@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* Brand colours */
+  --color-lilac:       #A855F7;
+  --color-lilac-light: #F3E8FF;
+  --color-lilac-dark:  #7C3AED;
+  --color-yellow:      #FACC15;
+  --color-red:         #EF4444;
+  --color-blue:        #3B82F6;
+  --color-mint:        #34D399;
+  --color-pink:        #F472B6;
+  --color-orange:      #FB923C;
+  --color-ink:         #111111;
+  --color-off:         #F9F7F4;
+  --color-mid:         #6B7280;
+
+  /* Typography */
+  --font-sans: var(--font-montserrat);
+
+  /* Animation */
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-float-slow: float 9s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(-10px); }
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-up {
+  animation: fadeUp 0.6s ease forwards;
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-float-slow {
+  animation: float 9s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-fade-up,
+  .animate-float,
+  .animate-float-slow {
+    animation: none;
+  }
+}
+
+body {
+  color: #111111;
+  background: #ffffff;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
