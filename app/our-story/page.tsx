@@ -130,12 +130,19 @@ export default function OurStoryPage() {
                 </span>
               </div>
 
-              {/* placeholder — replace with Neve's actual bio when available */}
               <p className="text-sm font-light text-mid leading-[1.9]">
-                Neve brings deep technical
-                expertise and a builder&apos;s instinct to maisie. She is the architect of
-                the product experience — turning Sinead&apos;s founding vision into something
-                beautiful, functional, and ready to scale.
+                Neve and Sinead met at a previous company — colleagues before they were
+                co-founders, friends before they were co-parents of maisie.
+                <br /><br />
+                Neve came to this as a mother who had lived the gap firsthand. When her
+                son Rory was diagnosed as autistic, the baby apps she turned to for
+                support quietly made things harder — milestone trackers built for a
+                journey that looked nothing like theirs. She didn&apos;t need a chart. She
+                needed somewhere to celebrate Rory&apos;s first year on his own terms.
+                <br /><br />
+                That&apos;s the version of maisie she is building. One that holds every
+                journey, asks nothing of your baby, and meets every mother exactly
+                where she is.
               </p>
             </div>
           </div>
