@@ -1,7 +1,52 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import SectionTag from "@/components/ui/SectionTag";
 import DecorativeBlobs from "@/components/illustrations/DecorativeBlobs";
 import PhoneMockup from "@/components/illustrations/PhoneMockup";
+
+export const metadata: Metadata = {
+  title: "maisie — for mums who refuse to miss their baby's first year",
+  description:
+    "maisie is the daily app that helps new mums capture every moment of their baby's first year — photos, memories, tiny wins — ending in a beautiful hardcover Storyboard book. Join the waitlist.",
+  alternates: {
+    canonical: "https://maisieapp.com",
+  },
+  openGraph: {
+    url: "https://maisieapp.com",
+    title: "maisie — for mums who refuse to miss their baby's first year",
+    description:
+      "Capture every moment of your baby's first year. One daily habit. One beautiful book at the end. Join the waitlist.",
+    images: [
+      {
+        url: "/opengraph-image",
+        width: 1200,
+        height: 630,
+        alt: "maisie — for mums who refuse to miss their baby's first year",
+      },
+    ],
+  },
+};
+
+const mobileAppSchema = {
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  name: "maisie",
+  description:
+    "A daily capture and memory app for new mums. Documents the baby's first year and produces a beautiful hardcover Storyboard book.",
+  operatingSystem: "iOS, Android",
+  applicationCategory: "LifestyleApplication",
+  offers: {
+    "@type": "Offer",
+    price: "39.99",
+    priceCurrency: "EUR",
+    availability: "https://schema.org/PreOrder",
+  },
+  creator: {
+    "@type": "Organization",
+    name: "maisie",
+    url: "https://maisieapp.com",
+  },
+};
 
 /* ─── Inline SVG illustrations for feature cards ─── */
 
@@ -149,6 +194,10 @@ function TestimonialCard({ quote, author }: { quote: string; author: string }) {
 export default function Home() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(mobileAppSchema) }}
+      />
       {/* ─── 1.1 HERO ─── */}
       <section className="relative min-h-[calc(100vh-64px)] flex items-center overflow-hidden bg-white py-20 px-6 md:px-12 lg:px-20">
         <DecorativeBlobs />
