@@ -7,9 +7,26 @@ import NevePlaceholder from "@/components/illustrations/NevePlaceholder";
 import TableScene from "@/components/illustrations/TableScene";
 
 export const metadata: Metadata = {
-  title: "our story — maisie",
+  title: "Our Story — how maisie was born",
   description:
-    "Built by mothers, for mothers. The origin story of maisie — born on a hard day in Ireland, from a camera roll full of hidden milestones.",
+    "maisie was born on a hard day in Ireland. Founder Sinead built a daily gratitude practice during her postpartum year — and realised what she had built could change motherhood for every woman who came after her.",
+  alternates: {
+    canonical: "https://maisieapp.com/our-story",
+  },
+  openGraph: {
+    url: "https://maisieapp.com/our-story",
+    title: "Our Story — how maisie was born",
+    description:
+      "A hard week, a camera roll, and a revelation. The story behind maisie.",
+    images: [
+      {
+        url: "/our-story/opengraph-image",
+        width: 1200,
+        height: 630,
+        alt: "Our Story — how maisie was born",
+      },
+    ],
+  },
 };
 
 export default function OurStoryPage() {

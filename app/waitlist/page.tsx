@@ -4,9 +4,26 @@ import DecorativeBlobs from "@/components/illustrations/DecorativeBlobs";
 import WaitlistForm from "@/components/WaitlistForm";
 
 export const metadata: Metadata = {
-  title: "join the waitlist — maisie",
+  title: "Join the Waitlist — be first when maisie goes live",
   description:
-    "Be the first to know when maisie is live. Get early access, founding member pricing, and first look at the Storyboard book.",
+    "Get early access, founding member pricing, and first look at the maisie Storyboard book. Join hundreds of mums already on the waitlist.",
+  alternates: {
+    canonical: "https://maisieapp.com/waitlist",
+  },
+  openGraph: {
+    url: "https://maisieapp.com/waitlist",
+    title: "Join the maisie Waitlist",
+    description:
+      "Be first to access maisie when we go live. Founding member pricing and early Storyboard access included.",
+    images: [
+      {
+        url: "/waitlist/opengraph-image",
+        width: 1200,
+        height: 630,
+        alt: "Join the maisie Waitlist",
+      },
+    ],
+  },
 };
 
 function BenefitCard({

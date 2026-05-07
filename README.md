@@ -89,6 +89,20 @@ Testimonials are in `app/page.tsx`, in the Section 1.5 block near the bottom. Lo
 
 ---
 
+## After deploying — submitting to Google Search Console
+
+1. Go to [search.google.com/search-console](https://search.google.com/search-console)
+2. Click **Add property** → enter `https://maisieapp.com`
+3. Choose the **HTML tag** verification method
+4. Copy the `content` value from the meta tag Google gives you (it looks like `abc123xyz...`)
+5. Add it to Vercel: **Settings → Environment Variables → GOOGLE_SITE_VERIFICATION**
+6. Redeploy the site (Vercel → Deployments → Redeploy)
+7. Return to Search Console and click **Verify**
+8. Go to **Sitemaps** → submit `https://maisieapp.com/sitemap.xml`
+9. Google will begin crawling and indexing within 1–7 days
+
+---
+
 ## Deployment to Vercel
 
 ### One-click deploy
