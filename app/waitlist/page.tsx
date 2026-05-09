@@ -82,7 +82,8 @@ export default function WaitlistPage() {
           </h1>
           <p className="text-[1.1rem] font-light text-white/80 leading-[1.8]">
             Join the waitlist and get early access, founding member pricing,
-            and first look at the Storyboard book.
+            and first look at the Storyboard book. For first time mums,
+            experienced mums, and every mother in between.
           </p>
         </div>
       </section>

@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     template: "%s | maisie",
   },
   description:
-    "maisie is the daily habit that helps new mums capture and celebrate their baby's first year — every photo, every moment, every tiny win. Ends in a beautiful hardcover Storyboard book.",
+    "maisie is the daily habit that helps mums capture and celebrate every moment — for their family, every year. One photo, one thought, one tiny win a day. Ends in a beautiful hardcover Storyboard book.",
   keywords: [
     "baby first year app",
     "baby memory app",
@@ -32,6 +32,12 @@ export const metadata: Metadata = {
     "maisie app",
     "first year baby Ireland",
     "baby photo journal",
+    "mum app all ages",
+    "family memory app",
+    "yearly family keepsake",
+    "mum second baby app",
+    "family scrapbook app Ireland",
+    "best thing today app",
   ],
   authors: [{ name: "maisie", url: "https://maisieapp.com" }],
   creator: "maisie",
