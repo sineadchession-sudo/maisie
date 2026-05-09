@@ -6,6 +6,7 @@ import Link from "next/link";
 const links = [
   { label: "what is maisie", href: "/#what-is-maisie" },
   { label: "our story", href: "/our-story" },
+  { label: "the first year", href: "/the-first-year" },
   { label: "join the waitlist", href: "/waitlist" },
 ];
 
@@ -26,7 +27,7 @@ export default function Nav() {
 
           {/* Desktop nav */}
           <div className="hidden md:flex items-center gap-8">
-            {links.slice(0, 2).map((l) => (
+            {links.slice(0, 3).map((l) => (
               <Link
                 key={l.href}
                 href={l.href}
