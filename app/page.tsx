@@ -5,15 +5,15 @@ import DecorativeBlobs from "@/components/illustrations/DecorativeBlobs";
 import PhoneMockup from "@/components/illustrations/PhoneMockup";
 
 export const metadata: Metadata = {
-  title: "maisie — for mums who refuse to miss their baby's first year",
+  title: "maisie — for mums who refuse to miss a single moment",
   description:
-    "maisie is the daily app that helps new mums capture every moment of their baby's first year — photos, memories, tiny wins — ending in a beautiful hardcover Storyboard book. Join the waitlist.",
+    "maisie helps mums refuse to miss a single moment — whether it's a first smile or a family Tuesday that felt ordinary and was anything but. Join the waitlist.",
   alternates: {
     canonical: "https://maisieapp.com",
   },
   openGraph: {
     url: "https://maisieapp.com",
-    title: "maisie — for mums who refuse to miss their baby's first year",
+    title: "maisie — for mums who refuse to miss a single moment",
     description:
       "Capture every moment of your baby's first year. One daily habit. One beautiful book at the end. Join the waitlist.",
     images: [
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
         url: "/opengraph-image",
         width: 1200,
         height: 630,
-        alt: "maisie — for mums who refuse to miss their baby's first year",
+        alt: "maisie — for mums who refuse to miss a single moment",
       },
     ],
   },
@@ -209,15 +209,16 @@ export default function Home() {
             <h1 className="text-[clamp(2.8rem,5vw,5rem)] font-semibold text-ink leading-[1.1]">
               for mums who refuse to
               <br />
-              miss their baby&apos;s{" "}
-              <em className="font-black not-italic text-lilac">first year.</em>
+              miss{" "}
+              <em className="font-black not-italic text-lilac">a single moment.</em>
             </h1>
 
             <p className="text-[1.1rem] font-light text-ink leading-[1.8] max-w-[520px]">
-              The first year goes faster than anyone tells you.
-              maisie is the daily habit that makes sure you catch it —
-              the big moments, the small ones, and the ones hiding in
-              your camera roll that you almost scrolled past.
+              Every year goes faster than the one before it. maisie is
+              the daily habit that makes sure you catch it all — the big
+              moments, the small ones, and the ones hiding in your camera
+              roll that you almost scrolled past. For you. For your family.
+              For the version of yourself who showed up today.
             </p>
 
             <div className="flex flex-wrap items-center gap-4">
@@ -280,6 +281,125 @@ export default function Home() {
               body="At the end of the year, maisie turns everything you captured into a beautiful hardcover Storyboard book. A physical record of love, in your hands, forever."
             />
           </div>
+        </div>
+      </section>
+
+      {/* ─── 1.2b WHO MAISIE IS FOR ─── */}
+      <section className="bg-off py-24 px-6 md:px-12 lg:px-20">
+        <div className="max-w-7xl mx-auto flex flex-col items-center gap-12">
+          <div className="flex flex-col items-center gap-5 text-center">
+            <SectionTag>✦ whoever you are</SectionTag>
+            <h2 className="text-[clamp(2rem,3.2vw,3.2rem)] font-semibold text-ink leading-[1.2] max-w-xl">
+              Every mother deserves this.
+              <br />
+              Not just the first time.
+            </h2>
+            <p className="text-[1.05rem] font-light text-ink leading-[1.9] max-w-[640px]">
+              Whether this is your first baby or your fourth,
+              maisie meets you exactly where you are.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 w-full">
+            {/* Card 1 — First time mums */}
+            <div className="bg-white rounded-3xl p-8 md:p-10 flex flex-col gap-6 border-t-4 border-lilac hover:-translate-y-1 transition-transform duration-200">
+              <span className="inline-flex items-center gap-2 bg-lilac text-white text-sm font-semibold tracking-wide px-4 py-2 rounded-full self-start">
+                ✦ first time mums
+              </span>
+              <h3 className="text-[1.4rem] font-semibold text-ink leading-[1.25]">
+                Nothing prepares you for how
+                <br />
+                fast it goes.
+              </h3>
+              <div className="flex flex-col gap-4 text-[0.95rem] font-light text-ink leading-[1.9]">
+                <p>
+                  The first year is unlike anything else. It is exhausting
+                  and overwhelming and so full of love it sometimes
+                  knocks the breath out of you.
+                </p>
+                <p>
+                  And it moves so fast that weeks disappear before
+                  you have a chance to hold onto them.
+                </p>
+                <p>
+                  maisie gives you the infrastructure to catch it all —
+                  without adding to your to-do list. One photo. One
+                  thought. One tiny win. Every day.
+                </p>
+                <p>
+                  At the end of the year, every entry becomes a
+                  beautiful hardcover Storyboard book. The whole
+                  year, in your hands, forever.
+                </p>
+              </div>
+              <ul className="flex flex-col gap-3">
+                <li className="flex items-start gap-3 text-sm font-light text-ink">
+                  <span className="text-lilac mt-0.5 text-base" aria-hidden="true">●</span>
+                  Build a daily habit of gratitude from day one
+                </li>
+                <li className="flex items-start gap-3 text-sm font-light text-ink">
+                  <span className="mt-0.5 text-base" style={{ color: "#FACC15" }} aria-hidden="true">●</span>
+                  Capture milestones without the pressure of perfection
+                </li>
+                <li className="flex items-start gap-3 text-sm font-light text-ink">
+                  <span className="mt-0.5 text-base" style={{ color: "#F472B6" }} aria-hidden="true">●</span>
+                  End the year with a Storyboard book to keep forever
+                </li>
+              </ul>
+              <p className="text-sm font-light italic text-mid mt-auto">&ldquo;future you will thank you.&rdquo;</p>
+            </div>
+
+            {/* Card 2 — Mums who know */}
+            <div className="bg-white rounded-3xl p-8 md:p-10 flex flex-col gap-6 border-t-4 hover:-translate-y-1 transition-transform duration-200" style={{ borderTopColor: "#FACC15" }}>
+              <span className="inline-flex items-center gap-2 text-ink text-sm font-semibold tracking-wide px-4 py-2 rounded-full self-start" style={{ backgroundColor: "#FACC15" }}>
+                ✦ mums who know
+              </span>
+              <h3 className="text-[1.4rem] font-semibold text-ink leading-[1.25]">
+                You know how fast it goes.
+                <br />
+                You&apos;ve lived it.
+              </h3>
+              <div className="flex flex-col gap-4 text-[0.95rem] font-light text-ink leading-[1.9]">
+                <p>
+                  You already know what it feels like to blink and
+                  find yourself at the end of a year wondering where
+                  it went. You know the guilt of the undocumented
+                  days. The camera roll you meant to sort through.
+                  The moments that felt unforgettable — until they
+                  weren&apos;t.
+                </p>
+                <p>
+                  maisie is your second chance to catch it all.
+                  Not just for a new baby — for your whole family.
+                  The best thing that happened today. The moment
+                  that made everyone laugh. The small, ordinary,
+                  irreplaceable stuff of a family life being lived.
+                </p>
+                <p>
+                  Every year is precious. Not just the first one.
+                </p>
+              </div>
+              <ul className="flex flex-col gap-3">
+                <li className="flex items-start gap-3 text-sm font-light text-ink">
+                  <span className="mt-0.5 text-base" style={{ color: "#FACC15" }} aria-hidden="true">●</span>
+                  Capture the whole family — every age, every stage
+                </li>
+                <li className="flex items-start gap-3 text-sm font-light text-ink">
+                  <span className="text-lilac mt-0.5 text-base" aria-hidden="true">●</span>
+                  Build a yearly Storyboard book as a family keepsake
+                </li>
+                <li className="flex items-start gap-3 text-sm font-light text-ink">
+                  <span className="mt-0.5 text-base" style={{ color: "#F472B6" }} aria-hidden="true">●</span>
+                  Never lose another year to the blur of daily life
+                </li>
+              </ul>
+              <p className="text-sm font-light italic text-mid mt-auto">&ldquo;you showed up. that&apos;s everything.&rdquo;</p>
+            </div>
+          </div>
+
+          <p className="text-[1.05rem] font-semibold text-lilac text-center">
+            Never miss a moment — for you, and for them.
+          </p>
         </div>
       </section>
 
@@ -524,7 +644,7 @@ export default function Home() {
               color="#F472B6"
               icon={<BookIconIllustration />}
               heading="hold the year in your hands"
-              body="At the end of the year, your entries become a gorgeous hardcover Storyboard book. Every page a memory. Every entry proof of how hard you loved."
+              body="At the end of every year, your entries become a gorgeous hardcover Storyboard book. Every page a memory. Every entry proof of how hard you loved — this year, and every year after."
             />
           </div>
 

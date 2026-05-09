@@ -6,7 +6,8 @@ const STAGE_OPTIONS = [
   { value: "pregnant", label: "I'm pregnant 🤰" },
   { value: "0-6mo", label: "My baby is 0–6 months 👶" },
   { value: "6-12mo", label: "My baby is 6–12 months 🌱" },
-  { value: "12mo+", label: "My baby is over 1 year 🎂" },
+  { value: "toddler", label: "I have a toddler or older child 🧒" },
+  { value: "multiple", label: "I have multiple children 👨‍👩‍👧‍👦" },
   { value: "planning", label: "Planning for the future ✨" },
 ];
 
@@ -194,7 +195,7 @@ export default function WaitlistForm() {
       <div>
         <fieldset>
           <legend className={labelClass}>
-            Are you currently pregnant or in your baby&apos;s first year?
+            Where are you in your journey?
           </legend>
           <div className="flex flex-wrap gap-2 mt-2">
             {STAGE_OPTIONS.map((opt) => (
